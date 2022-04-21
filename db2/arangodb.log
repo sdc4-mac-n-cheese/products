@@ -1,0 +1,17 @@
+2022-04-20T10:49:14-07:00 |INFO| Starting arangodb version 0.15.4, build ed743d2293efd763309f3ba0a1ba6fb68ac4a41a component=arangodb
+2022-04-20T10:49:14-07:00 |INFO| Contacting master http://127.0.0.1:8528... component=arangodb
+2022-04-20T10:49:14-07:00 |INFO| Initial handshake with master failed error="Post \"http://127.0.0.1:8528/hello\": dial tcp 127.0.0.1:8528: connect: connection refused" component=arangodb
+2022-04-20T10:49:15-07:00 |INFO| Contacting master http://127.0.0.1:8528... component=arangodb
+2022-04-20T10:49:15-07:00 |INFO| Initial handshake with master failed error="Post \"http://127.0.0.1:8528/hello\": dial tcp 127.0.0.1:8528: connect: connection refused" component=arangodb
+2022-04-20T10:49:16-07:00 |INFO| Contacting master http://127.0.0.1:8528... component=arangodb
+2022-04-20T10:49:16-07:00 |INFO| Initial handshake with master failed error="Post \"http://127.0.0.1:8528/hello\": dial tcp 127.0.0.1:8528: connect: connection refused" component=arangodb
+2022-04-20T10:49:17-07:00 |INFO| Contacting master http://127.0.0.1:8528... component=arangodb
+2022-04-20T10:49:17-07:00 |INFO| Initial handshake with master failed error="Post \"http://127.0.0.1:8528/hello\": dial tcp 127.0.0.1:8528: connect: connection refused" component=arangodb
+2022-04-20T10:49:18-07:00 |INFO| Contacting master http://127.0.0.1:8528... component=arangodb
+2022-04-20T10:49:18-07:00 |INFO| Initial handshake with master failed error="Post \"http://127.0.0.1:8528/hello\": dial tcp 127.0.0.1:8528: connect: connection refused" component=arangodb
+2022-04-20T10:49:19-07:00 |INFO| Contacting master http://127.0.0.1:8528... component=arangodb
+2022-04-20T10:49:19-07:00 |INFO| Initial handshake with master failed error="Post \"http://127.0.0.1:8528/hello\": dial tcp 127.0.0.1:8528: connect: connection refused" component=arangodb
+2022-04-20T10:49:20-07:00 |INFO| Contacting master http://127.0.0.1:8528... component=arangodb
+2022-04-20T10:49:20-07:00 |INFO| Initial handshake with master failed error="Post \"http://127.0.0.1:8528/hello\": dial tcp 127.0.0.1:8528: connect: connection refused" component=arangodb
+2022-04-20T10:49:21-07:00 |INFO| Contacting master http://127.0.0.1:8528... component=arangodb
+2022-04-20T10:49:21-07:00 |INFO| Initial handshake with master failed error="Post \"http://127.0.0.1:8528/hello\": dial tcp 127.0.0.1:8528: connect: connection refused" component=arangodb
