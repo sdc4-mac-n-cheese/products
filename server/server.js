@@ -14,14 +14,25 @@ app.get('/products', (req, res) => {
 app.get('/products/:product_id', (req, res) => {
   console.log('Serving get/products request')
   productinformation(req.params.product_id)
-    .then((result)=>{res.send(result)})
+    .then((result)=>{
+      res.send(result[0])})
 })
 
 app.get('/products/:product_id/styles', (req, res) => {
   console.log('Serving get/products:product_id/styles request')
   console.log('params vs query: ', req.params, req.query)
   productstyles(req.params.product_id)
-    .then((result)=>{res.send(result)})
+    .then((result)=>{
+      // console.log('result: ', result)
+      result.forEach((obj)=>{
+        obj.skus = obj.skus[0]
+      })
+      var returnobj = {
+        product_id: req.params.product_id,
+        results: result
+      }
+      // console.log('returnobj: ', returnobj)
+      res.send(returnobj)})
 })
 
 app.get('/products/:product_id/related', (req, res) => {

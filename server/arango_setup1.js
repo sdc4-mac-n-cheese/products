@@ -13,7 +13,7 @@ db.listDatabases().then((names) => {
     )}
   }).then (() => {
     db.get().then(
-      ()=> console.log("Using database productdb"),
+      ()=> console.log('Using database "productdb"'),
       error=> console.error("Error connecting to database: " + error)
     );
   });
