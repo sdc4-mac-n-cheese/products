@@ -12,7 +12,7 @@ app.get('/products', (req, res) => {
 })
 
 app.get('/products/:product_id', (req, res) => {
-  console.log('Serving get/products request')
+  console.log('Serving get/products/:product_id request: ', req.params.product_id)
   productinformation(req.params.product_id)
     .then((result)=>{
       res.send(result[0])})
@@ -20,7 +20,6 @@ app.get('/products/:product_id', (req, res) => {
 
 app.get('/products/:product_id/styles', (req, res) => {
   console.log('Serving get/products:product_id/styles request')
-  console.log('params vs query: ', req.params, req.query)
   productstyles(req.params.product_id)
     .then((result)=>{
       // console.log('result: ', result)
@@ -36,8 +35,7 @@ app.get('/products/:product_id/styles', (req, res) => {
 })
 
 app.get('/products/:product_id/related', (req, res) => {
-  console.log('Serving get/products:product_id/styles request')
-  console.log('params vs query: ', req.params, req.query)
+  console.log('Serving get/products:product_id/related request')
   relatedproducts(req.params.product_id)
     .then((result)=>{res.send(result)})
 })
