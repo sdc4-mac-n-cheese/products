@@ -22,7 +22,7 @@ export const options = {
 export default function () {
   // our HTTP request, note that we are saving the response to res, which can be accessed later
     const id = Math.floor(Math.random() * 1000011)
-      let res = http.get(`http://localhost:3000/products/${id}`);
+      let res = http.get(`http://54.241.187.175:8528/products/${id}`);
         sleep(1);
         const checkRes = check(res, {
           'status is 200': (r) => r.status === 200,
@@ -30,7 +30,7 @@ export default function () {
         });
 
         const id2 = Math.floor(Math.random() * 1000011)
-      let res2 = http.get(`http://localhost:3000/products/${id2}/styles`);
+      let res2 = http.get(`http://54.241.187.175:8528/products/${id2}/styles`);
         sleep(1);
         const checkRes2 = check(res2, {
           'status is 200': (r) => r.status === 200,
@@ -38,7 +38,7 @@ export default function () {
         });
 
         const id3 = Math.floor(Math.random() * 1000011)
-      let res3 = http.get(`http://localhost:3000/products`);
+      let res3 = http.get(`http://54.241.187.175:8528/products`);
         sleep(1);
         const checkRes3 = check(res3, {
           'status is 200': (r) => r.status === 200,
@@ -46,12 +46,10 @@ export default function () {
         });
 
         const id4 = Math.floor(Math.random() * 1000011)
-      let res4 = http.get(`http://localhost:3000/products/${id4}/related`);
+      let res4 = http.get(`http://54.241.187.175:8528/products/${id4}/related`);
         sleep(1);
         const checkRes4 = check(res4, {
           'status is 200': (r) => r.status === 200,
           'response body': (r) => r.body.indexOf('Feel free to browse') !== -1,
         });
-
-  // const res = http.get('http://localhost:3000/products');
 }

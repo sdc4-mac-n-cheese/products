@@ -1,6 +1,7 @@
 //require arango, create connection
 var arangojs = require('arangojs');
-var db = new arangojs.Database();
+var db = new arangojs.Database('http://3.101.116.120:8529')
+// var db = new arangojs.Database('http://127.0.0.1:8529')
 
 //create database if not exists
 db.listDatabases().then((names) => {
@@ -20,6 +21,7 @@ db.listDatabases().then((names) => {
 
 //use database
 db.useDatabase('productdb')
+// db.useDatabase('productdb').then(console.log('Connecting to AWS Instance...'))
 
 module.exports = {
   db: db
