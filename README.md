@@ -1,8 +1,8 @@
 # Product API
 System Design Capstone
-Authored by Joel Hench.
+By: Joel Hench
 
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![ArangoDB](https://img.shields.io/badge/ArangoDB-%234ea94b.svg?style=for-the-badge&logo=avocado&logoColor=white?link=http://google.com&link=http://google.com) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ## Overview
 This product API, a node.js/arangodb database REST API, is designed to provide a fully scalable server and database solution. It delivers requests related to an Ecommerce webpage for page loading, user navigation, and meta data. While a visitor is on the site, this API serves information related to products, similar items, images, reviews, and questions and answers.
