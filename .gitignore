@@ -1,3 +1,6 @@
 node_modules/
 sdc_data/
 SDCproduct.pem
+server1.pem
+server2.pem
+server3.pem
